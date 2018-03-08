@@ -3,7 +3,7 @@
 var _ = require('lodash');
 var async = require('async');
 
-var bitcore = require('bitcore');
+var bitcore = require('eMarkcore');
 var RpcClient = bitcore.RpcClient;
 var config = require('../../config/config');
 var rpc = new RpcClient(config.bitcoind);
